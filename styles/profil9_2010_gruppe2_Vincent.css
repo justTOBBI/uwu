@@ -1,0 +1,113 @@
+:root {
+    --charcoal: #fdffb6;
+    --persian-green: #2a9d8fff;
+    --maize-crayola: #e9c46aff;
+    --sandy-brown: #f4a261ff;
+    --burnt-sienna: #e76f51ff;
+    --uwu: #ffc6ff;
+    --uwu2: #ffadad;
+}
+
+
+/* Stil-Angaben f�r einzelne HTML-Elemente */
+
+body {
+    background-color: var(--charcoal);
+    font-family: Roboto;
+}
+
+h1 {
+    font-size: 250%;
+    color: var(--persian-green);
+}
+
+h2 {
+    font-size: 150%;
+    color: var(--persian-green);
+}
+
+h3 {
+    font-size: 130%;
+    color: var(--burnt-sienna);
+}
+
+p {
+    color: var(--persian-green);
+}
+
+
+/* gleicher Stil f�r verschiedene Elemente �ber Klassenangaben m�glich */
+
+.body2 {
+    background-color: var(--charcoal);
+    color: white;
+}
+
+.body1 {
+    background-color: var(--charcoal);
+    color: White;
+}
+
+.text1 {
+    color: white;
+    background-color: var(--charcoal);
+}
+
+.Kino {
+    color: white;
+    background-color: var(--charcoal);
+}
+
+
+/* sogenannte Pseudo-Elemente bzw. Pseudo-Klassen*/
+
+a:link {
+    font-weight: normal;
+    color: var(--sandy-brown);
+    text-decoration: none;
+    background-color: var(--charcoal);
+}
+
+a:visited {
+    font-weight: normal;
+    color: DarkOrange;
+    text-decoration: none;
+    background-color: LightSlateGray;
+}
+
+a:hover {
+    font-weight: normal;
+    color: var(--uwu2);
+    text-decoration: none;
+    background-color: var(--uwu);
+}
+
+a:focus {
+    font-weight: bold;
+    color: var(--maize-crayola);
+    text-decoration: underline;
+    background-color: var(--charcoal);
+}
+
+a:active {
+    font-weight: bold;
+    color: var(--maize-crayola);
+    background-color: var(--charcoal);
+}
+
+li:hover {
+    color: var(--uwu);
+    text-decoration: none;
+    background-color: var(--charcoal);
+}
+
+
+/*
+ul:hover {  color:#FF7F00; text-decoration:none;background-color:LightSlateGray; }
+ol:hover { color:LightSteelBlue; text-decoration:none;background-color:LightSlateGray; }
+
+
+font-weight:normal  f�hrte zur vergr��erung
+
+f�hrt zur Vergr��erung :-(
+*/
